@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F28042051DC112CB00EDDEDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28042041DC112CB00EDDEDF /* AppDelegate.swift */; };
+		F28042071DC112CB00EDDEDF /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F28042061DC112CB00EDDEDF /* GameScene.sks */; };
+		F28042091DC112CB00EDDEDF /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = F28042081DC112CB00EDDEDF /* Actions.sks */; };
+		F280420B1DC112CB00EDDEDF /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F280420A1DC112CB00EDDEDF /* GameScene.swift */; };
+		F280420D1DC112CB00EDDEDF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F280420C1DC112CB00EDDEDF /* GameViewController.swift */; };
+		F28042101DC112CB00EDDEDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F280420E1DC112CB00EDDEDF /* Main.storyboard */; };
+		F28042121DC112CB00EDDEDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F28042111DC112CB00EDDEDF /* Assets.xcassets */; };
+		F28042151DC112CB00EDDEDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F28042131DC112CB00EDDEDF /* LaunchScreen.storyboard */; };
+		F28042201DC112CB00EDDEDF /* flappsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F280421F1DC112CB00EDDEDF /* flappsTests.swift */; };
+		F280422B1DC112CB00EDDEDF /* flappsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F280422A1DC112CB00EDDEDF /* flappsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F280421C1DC112CB00EDDEDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F28041F91DC112CB00EDDEDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F28042001DC112CB00EDDEDF;
+			remoteInfo = flapps;
+		};
+		F28042271DC112CB00EDDEDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F28041F91DC112CB00EDDEDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F28042001DC112CB00EDDEDF;
+			remoteInfo = flapps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F28042011DC112CB00EDDEDF /* flapps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flapps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F28042041DC112CB00EDDEDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F28042061DC112CB00EDDEDF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		F28042081DC112CB00EDDEDF /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		F280420A1DC112CB00EDDEDF /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		F280420C1DC112CB00EDDEDF /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		F280420F1DC112CB00EDDEDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F28042111DC112CB00EDDEDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F28042141DC112CB00EDDEDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F28042161DC112CB00EDDEDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F280421B1DC112CB00EDDEDF /* flappsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flappsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F280421F1DC112CB00EDDEDF /* flappsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flappsTests.swift; sourceTree = "<group>"; };
+		F28042211DC112CB00EDDEDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F28042261DC112CB00EDDEDF /* flappsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flappsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F280422A1DC112CB00EDDEDF /* flappsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flappsUITests.swift; sourceTree = "<group>"; };
+		F280422C1DC112CB00EDDEDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F28041FE1DC112CB00EDDEDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F28042181DC112CB00EDDEDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F28042231DC112CB00EDDEDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F28041F81DC112CB00EDDEDF = {
+			isa = PBXGroup;
+			children = (
+				F28042031DC112CB00EDDEDF /* flapps */,
+				F280421E1DC112CB00EDDEDF /* flappsTests */,
+				F28042291DC112CB00EDDEDF /* flappsUITests */,
+				F28042021DC112CB00EDDEDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F28042021DC112CB00EDDEDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F28042011DC112CB00EDDEDF /* flapps.app */,
+				F280421B1DC112CB00EDDEDF /* flappsTests.xctest */,
+				F28042261DC112CB00EDDEDF /* flappsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F28042031DC112CB00EDDEDF /* flapps */ = {
+			isa = PBXGroup;
+			children = (
+				F28042041DC112CB00EDDEDF /* AppDelegate.swift */,
+				F28042061DC112CB00EDDEDF /* GameScene.sks */,
+				F28042081DC112CB00EDDEDF /* Actions.sks */,
+				F280420A1DC112CB00EDDEDF /* GameScene.swift */,
+				F280420C1DC112CB00EDDEDF /* GameViewController.swift */,
+				F280420E1DC112CB00EDDEDF /* Main.storyboard */,
+				F28042111DC112CB00EDDEDF /* Assets.xcassets */,
+				F28042131DC112CB00EDDEDF /* LaunchScreen.storyboard */,
+				F28042161DC112CB00EDDEDF /* Info.plist */,
+			);
+			path = flapps;
+			sourceTree = "<group>";
+		};
+		F280421E1DC112CB00EDDEDF /* flappsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F280421F1DC112CB00EDDEDF /* flappsTests.swift */,
+				F28042211DC112CB00EDDEDF /* Info.plist */,
+			);
+			path = flappsTests;
+			sourceTree = "<group>";
+		};
+		F28042291DC112CB00EDDEDF /* flappsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F280422A1DC112CB00EDDEDF /* flappsUITests.swift */,
+				F280422C1DC112CB00EDDEDF /* Info.plist */,
+			);
+			path = flappsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F28042001DC112CB00EDDEDF /* flapps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F280422F1DC112CB00EDDEDF /* Build configuration list for PBXNativeTarget "flapps" */;
+			buildPhases = (
+				F28041FD1DC112CB00EDDEDF /* Sources */,
+				F28041FE1DC112CB00EDDEDF /* Frameworks */,
+				F28041FF1DC112CB00EDDEDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = flapps;
+			productName = flapps;
+			productReference = F28042011DC112CB00EDDEDF /* flapps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F280421A1DC112CB00EDDEDF /* flappsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F28042321DC112CB00EDDEDF /* Build configuration list for PBXNativeTarget "flappsTests" */;
+			buildPhases = (
+				F28042171DC112CB00EDDEDF /* Sources */,
+				F28042181DC112CB00EDDEDF /* Frameworks */,
+				F28042191DC112CB00EDDEDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F280421D1DC112CB00EDDEDF /* PBXTargetDependency */,
+			);
+			name = flappsTests;
+			productName = flappsTests;
+			productReference = F280421B1DC112CB00EDDEDF /* flappsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F28042251DC112CB00EDDEDF /* flappsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F28042351DC112CB00EDDEDF /* Build configuration list for PBXNativeTarget "flappsUITests" */;
+			buildPhases = (
+				F28042221DC112CB00EDDEDF /* Sources */,
+				F28042231DC112CB00EDDEDF /* Frameworks */,
+				F28042241DC112CB00EDDEDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F28042281DC112CB00EDDEDF /* PBXTargetDependency */,
+			);
+			name = flappsUITests;
+			productName = flappsUITests;
+			productReference = F28042261DC112CB00EDDEDF /* flappsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F28041F91DC112CB00EDDEDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Mahmoud Khwaiter";
+				TargetAttributes = {
+					F28042001DC112CB00EDDEDF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7585VMJBBN;
+						ProvisioningStyle = Automatic;
+					};
+					F280421A1DC112CB00EDDEDF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7585VMJBBN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F28042001DC112CB00EDDEDF;
+					};
+					F28042251DC112CB00EDDEDF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7585VMJBBN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F28042001DC112CB00EDDEDF;
+					};
+				};
+			};
+			buildConfigurationList = F28041FC1DC112CB00EDDEDF /* Build configuration list for PBXProject "flapps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F28041F81DC112CB00EDDEDF;
+			productRefGroup = F28042021DC112CB00EDDEDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F28042001DC112CB00EDDEDF /* flapps */,
+				F280421A1DC112CB00EDDEDF /* flappsTests */,
+				F28042251DC112CB00EDDEDF /* flappsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F28041FF1DC112CB00EDDEDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28042101DC112CB00EDDEDF /* Main.storyboard in Resources */,
+				F28042071DC112CB00EDDEDF /* GameScene.sks in Resources */,
+				F28042121DC112CB00EDDEDF /* Assets.xcassets in Resources */,
+				F28042151DC112CB00EDDEDF /* LaunchScreen.storyboard in Resources */,
+				F28042091DC112CB00EDDEDF /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F28042191DC112CB00EDDEDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F28042241DC112CB00EDDEDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F28041FD1DC112CB00EDDEDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F280420B1DC112CB00EDDEDF /* GameScene.swift in Sources */,
+				F280420D1DC112CB00EDDEDF /* GameViewController.swift in Sources */,
+				F28042051DC112CB00EDDEDF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F28042171DC112CB00EDDEDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28042201DC112CB00EDDEDF /* flappsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F28042221DC112CB00EDDEDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F280422B1DC112CB00EDDEDF /* flappsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F280421D1DC112CB00EDDEDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F28042001DC112CB00EDDEDF /* flapps */;
+			targetProxy = F280421C1DC112CB00EDDEDF /* PBXContainerItemProxy */;
+		};
+		F28042281DC112CB00EDDEDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F28042001DC112CB00EDDEDF /* flapps */;
+			targetProxy = F28042271DC112CB00EDDEDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F280420E1DC112CB00EDDEDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F280420F1DC112CB00EDDEDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F28042131DC112CB00EDDEDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F28042141DC112CB00EDDEDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F280422D1DC112CB00EDDEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F280422E1DC112CB00EDDEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F28042301DC112CB00EDDEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7585VMJBBN;
+				INFOPLIST_FILE = flapps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mahmoudkhwaiter.flapps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F28042311DC112CB00EDDEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7585VMJBBN;
+				INFOPLIST_FILE = flapps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mahmoudkhwaiter.flapps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F28042331DC112CB00EDDEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7585VMJBBN;
+				INFOPLIST_FILE = flappsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mahmoudkhwaiter.flappsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flapps.app/flapps";
+			};
+			name = Debug;
+		};
+		F28042341DC112CB00EDDEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7585VMJBBN;
+				INFOPLIST_FILE = flappsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mahmoudkhwaiter.flappsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flapps.app/flapps";
+			};
+			name = Release;
+		};
+		F28042361DC112CB00EDDEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7585VMJBBN;
+				INFOPLIST_FILE = flappsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mahmoudkhwaiter.flappsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = flapps;
+			};
+			name = Debug;
+		};
+		F28042371DC112CB00EDDEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7585VMJBBN;
+				INFOPLIST_FILE = flappsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mahmoudkhwaiter.flappsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = flapps;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F28041FC1DC112CB00EDDEDF /* Build configuration list for PBXProject "flapps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F280422D1DC112CB00EDDEDF /* Debug */,
+				F280422E1DC112CB00EDDEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F280422F1DC112CB00EDDEDF /* Build configuration list for PBXNativeTarget "flapps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F28042301DC112CB00EDDEDF /* Debug */,
+				F28042311DC112CB00EDDEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F28042321DC112CB00EDDEDF /* Build configuration list for PBXNativeTarget "flappsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F28042331DC112CB00EDDEDF /* Debug */,
+				F28042341DC112CB00EDDEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F28042351DC112CB00EDDEDF /* Build configuration list for PBXNativeTarget "flappsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F28042361DC112CB00EDDEDF /* Debug */,
+				F28042371DC112CB00EDDEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F28041F91DC112CB00EDDEDF /* Project object */;
+}

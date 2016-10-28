@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2651EF91DC3675B00FC4FAD /* crashSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = F2651EF81DC3675B00FC4FAD /* crashSound.wav */; };
+		F2651EFB1DC36A2800FC4FAD /* pelicanMusic.wav in Resources */ = {isa = PBXBuildFile; fileRef = F2651EFA1DC36A2800FC4FAD /* pelicanMusic.wav */; };
+		F2651EFD1DC36A3000FC4FAD /* idlePads.wav in Resources */ = {isa = PBXBuildFile; fileRef = F2651EFC1DC36A3000FC4FAD /* idlePads.wav */; };
+		F26EBE791DC350BB00CBC1EF /* wingFlap.wav in Resources */ = {isa = PBXBuildFile; fileRef = F26EBE781DC350BB00CBC1EF /* wingFlap.wav */; };
+		F26EBE7C1DC3533C00CBC1EF /* flapSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = F26EBE7B1DC3533C00CBC1EF /* flapSound.wav */; };
 		F28042051DC112CB00EDDEDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28042041DC112CB00EDDEDF /* AppDelegate.swift */; };
 		F28042071DC112CB00EDDEDF /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F28042061DC112CB00EDDEDF /* GameScene.sks */; };
 		F28042091DC112CB00EDDEDF /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = F28042081DC112CB00EDDEDF /* Actions.sks */; };
@@ -17,6 +22,8 @@
 		F28042151DC112CB00EDDEDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F28042131DC112CB00EDDEDF /* LaunchScreen.storyboard */; };
 		F28042201DC112CB00EDDEDF /* flappsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F280421F1DC112CB00EDDEDF /* flappsTests.swift */; };
 		F280422B1DC112CB00EDDEDF /* flappsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F280422A1DC112CB00EDDEDF /* flappsUITests.swift */; };
+		F28042391DC1294700EDDEDF /* RandomFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28042381DC1294700EDDEDF /* RandomFunction.swift */; };
+		F2A161951DC2229E0022D572 /* Ghost.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F2A161941DC2229E0022D572 /* Ghost.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F2651EF81DC3675B00FC4FAD /* crashSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = crashSound.wav; sourceTree = "<group>"; };
+		F2651EFA1DC36A2800FC4FAD /* pelicanMusic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pelicanMusic.wav; sourceTree = "<group>"; };
+		F2651EFC1DC36A3000FC4FAD /* idlePads.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = idlePads.wav; sourceTree = "<group>"; };
+		F26EBE781DC350BB00CBC1EF /* wingFlap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wingFlap.wav; sourceTree = "<group>"; };
+		F26EBE7B1DC3533C00CBC1EF /* flapSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = flapSound.wav; sourceTree = "<group>"; };
 		F28042011DC112CB00EDDEDF /* flapps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flapps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F28042041DC112CB00EDDEDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F28042061DC112CB00EDDEDF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -53,6 +65,8 @@
 		F28042261DC112CB00EDDEDF /* flappsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flappsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F280422A1DC112CB00EDDEDF /* flappsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flappsUITests.swift; sourceTree = "<group>"; };
 		F280422C1DC112CB00EDDEDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F28042381DC1294700EDDEDF /* RandomFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomFunction.swift; sourceTree = "<group>"; };
+		F2A161941DC2229E0022D572 /* Ghost.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Ghost.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +117,20 @@
 		F28042031DC112CB00EDDEDF /* flapps */ = {
 			isa = PBXGroup;
 			children = (
+				F2A161941DC2229E0022D572 /* Ghost.atlas */,
 				F28042041DC112CB00EDDEDF /* AppDelegate.swift */,
 				F28042061DC112CB00EDDEDF /* GameScene.sks */,
 				F28042081DC112CB00EDDEDF /* Actions.sks */,
 				F280420A1DC112CB00EDDEDF /* GameScene.swift */,
+				F26EBE7B1DC3533C00CBC1EF /* flapSound.wav */,
+				F2651EF81DC3675B00FC4FAD /* crashSound.wav */,
+				F28042381DC1294700EDDEDF /* RandomFunction.swift */,
+				F2651EFA1DC36A2800FC4FAD /* pelicanMusic.wav */,
+				F2651EFC1DC36A3000FC4FAD /* idlePads.wav */,
 				F280420C1DC112CB00EDDEDF /* GameViewController.swift */,
 				F280420E1DC112CB00EDDEDF /* Main.storyboard */,
 				F28042111DC112CB00EDDEDF /* Assets.xcassets */,
+				F26EBE781DC350BB00CBC1EF /* wingFlap.wav */,
 				F28042131DC112CB00EDDEDF /* LaunchScreen.storyboard */,
 				F28042161DC112CB00EDDEDF /* Info.plist */,
 			);
@@ -202,7 +223,7 @@
 				TargetAttributes = {
 					F28042001DC112CB00EDDEDF = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 7585VMJBBN;
+						DevelopmentTeam = AALP43UNUE;
 						ProvisioningStyle = Automatic;
 					};
 					F280421A1DC112CB00EDDEDF = {
@@ -247,8 +268,14 @@
 				F28042101DC112CB00EDDEDF /* Main.storyboard in Resources */,
 				F28042071DC112CB00EDDEDF /* GameScene.sks in Resources */,
 				F28042121DC112CB00EDDEDF /* Assets.xcassets in Resources */,
+				F26EBE791DC350BB00CBC1EF /* wingFlap.wav in Resources */,
 				F28042151DC112CB00EDDEDF /* LaunchScreen.storyboard in Resources */,
+				F26EBE7C1DC3533C00CBC1EF /* flapSound.wav in Resources */,
+				F2651EFD1DC36A3000FC4FAD /* idlePads.wav in Resources */,
 				F28042091DC112CB00EDDEDF /* Actions.sks in Resources */,
+				F2A161951DC2229E0022D572 /* Ghost.atlas in Resources */,
+				F2651EF91DC3675B00FC4FAD /* crashSound.wav in Resources */,
+				F2651EFB1DC36A2800FC4FAD /* pelicanMusic.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +302,7 @@
 			files = (
 				F280420B1DC112CB00EDDEDF /* GameScene.swift in Sources */,
 				F280420D1DC112CB00EDDEDF /* GameViewController.swift in Sources */,
+				F28042391DC1294700EDDEDF /* RandomFunction.swift in Sources */,
 				F28042051DC112CB00EDDEDF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,7 +453,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7585VMJBBN;
+				DEVELOPMENT_TEAM = AALP43UNUE;
 				INFOPLIST_FILE = flapps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mahmoudkhwaiter.flapps;
@@ -438,7 +466,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7585VMJBBN;
+				DEVELOPMENT_TEAM = AALP43UNUE;
 				INFOPLIST_FILE = flapps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mahmoudkhwaiter.flapps;
@@ -524,6 +552,7 @@
 				F28042311DC112CB00EDDEDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F28042321DC112CB00EDDEDF /* Build configuration list for PBXNativeTarget "flappsTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +561,7 @@
 				F28042341DC112CB00EDDEDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F28042351DC112CB00EDDEDF /* Build configuration list for PBXNativeTarget "flappsUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +570,7 @@
 				F28042371DC112CB00EDDEDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
